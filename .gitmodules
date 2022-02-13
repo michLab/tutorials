@@ -1,0 +1,3 @@
+[submodule "practical_cpp_design_singer/book_source_code"]
+	path = practical_cpp_design_singer/book_source_code
+	url = https://github.com/Apress/practical-cplusplus-design-2e
