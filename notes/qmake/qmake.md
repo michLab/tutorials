@@ -38,6 +38,7 @@ Specifies the #include directories which should be searched when compiling the p
 ### DEPENDPATH vs INCLUDEPATH
 
 Based on [topic](https://www.qtcentre.org/threads/17346-QMake-s-INCLUDEPATH-and-DEPENDPATH-problems#:~:text=INCLUDEPATH%20is%20used%20during%20compilation,when%20certain%20header%20file%20changes.)
+
 INCLUDEPATH is used during compilation to find included header files. DEPENDPATH is used to resolve dependencies between header and source files, eg. which source files need to be recompiled when certain header file changes. If you modify a header file in folder foo/ and foo/ is not listed in DEPENDPATH, nothing gets recompiled. If foo/ is listed in DEPENDPATH, source files depending on that header will get recompiled. Paths can be relative to the .pro file or absolute paths.
 
 ### LIBS
